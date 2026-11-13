@@ -1,0 +1,5 @@
+invoice_id,raw_text
+INV-001,"Date: 2024-03-15 | Fournisseur: Boulanger | Montant total: 245.00 | TVA: 49.00"
+INV-002,"Date: 2024/04/10 | Supplier: Orange | Total: 89.90 | VAT: 17.98"
+INV-003,"Date: 2024-05-20 | Fournisseur: Carrefour | Montant TTC: 320.40 | TVA: 64.08"
+INV-004,"Date: 15/06/2024 | Supplier: Total Energies | Total: 150.00 | VAT: 30.00"

@@ -1,42 +1,39 @@
+# AI & Audit Portfolio
 
-# Audit, Comptabilité & Intelligence Artificielle
+Ce dépôt contient 10 projets Python indépendants autour de la comptabilité, de l’audit, de la finance et de l’intelligence artificielle.
 
-Bienvenue sur mon portfolio de projets consacrés à l'automatisation des processus comptables, à l'audit financier et à l'analyse des données.
+## Projets
 
-## Objectif
-
-Développer des solutions utilisant Python, l'intelligence artificielle et l'analyse de données pour améliorer la fiabilité des informations financières et automatiser les tâches répétitives.
-
-## Projets envisagés
-
-| N° | Projet | Technologies |
+| # | Projet | Description |
 |---|---|---|
-| 01 | Automatisation de la saisie comptable avec OCR et IA | Python, OCR |
-| 02 | Dashboard financier intelligent | Python, Streamlit |
-| 03 | Détection des anomalies comptables | Python, Machine Learning |
-| 04 | Générateur de rapports d'audit | Python, Word, PDF |
-| 05 | API de simulation fiscale | Python, FastAPI |
-| 06 | Analyse des données financières d'entreprises | Python, APIs |
-| 07 | Chatbot comptable intelligent | Python, IA |
-| 08 | Automatisation du rapprochement bancaire | Python, pandas |
-| 09 | Prédiction du risque de faillite | Python, scikit-learn |
-| 10 | Générateur automatique de business plan | Python, Excel |
+| 01 | OCR comptable | Extraction d’informations sur des factures fictives |
+| 02 | Dashboard financier | KPI financiers et tableau de bord |
+| 03 | Anomalies comptables | Détection de transactions suspectes |
+| 04 | Rapport d’audit | Génération d’un rapport d’audit synthétique |
+| 05 | API simulation fiscale | Simulation d’impôts selon scénarios |
+| 06 | Analyse financière | Ratios et diagnostics d’entreprise |
+| 07 | Chatbot comptable | Réponses à des questions comptables |
+| 08 | Rapprochement bancaire | Comparaison relevés bancaires / journal |
+| 09 | Prédiction de faillite | Score de risque et analyse de solvabilité |
+| 10 | Business plan | Génération d’un plan d’affaires |
 
-## Technologies
+## Exécution rapide
 
-- Python
-- pandas et NumPy
-- Streamlit
-- Excel
-- Machine Learning
-- APIs et intelligence artificielle
+Chaque dossier contient :
+- un script principal `main.py`
+- un `README.md` explicatif
+- un `requirements.txt`
+- des données fictives
+- des tests Pytest
 
-## Avancement
+Exemple :
 
-Les projets sont en phase de conception et seront développés progressivement.
+```bash
+cd 03_anomaly_detection
+python main.py
+pytest -q
+```
 
-## À propos
+## Validation
 
-Étudiant en Master 2 Audit & Expertise Comptable, je m'intéresse à l'utilisation des nouvelles technologies pour moderniser les métiers de l'audit, de la comptabilité et de la finance.
-
-Ce portfolio rassemble mes projets personnels d'apprentissage et de développement.
+Les projets ont été testés localement avec `pytest` avant d’être considérés comme prêts.
