@@ -1,4 +1,6 @@
-date,amount,description
-2024-01-05,1500.00,Facture client
-2024-01-08,220.00,Frais bancaires
-2024-01-10,980.00,Reglement fournisseur
+date,amount,description,reference
+2024-01-05,1500.00,Facture client,BNK-001
+2024-01-08,220.00,Frais bancaires,BNK-002
+2024-01-10,980.00,Règlement fournisseur,BNK-003
+2024-01-12,4300.00,Encaissement client,BNK-004
+2024-01-15,75.50,Abonnement logiciel,BNK-005

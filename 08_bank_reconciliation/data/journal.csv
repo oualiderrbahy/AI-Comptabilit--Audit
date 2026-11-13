@@ -1,4 +1,6 @@
-date,amount,description
-2024-01-05,1500.00,Facture client
-2024-01-08,220.00,Frais bancaires
-2024-01-11,1200.00,Autre paiement
+date,amount,description,account,reference
+2024-01-05,1500.00,Facture client,411000,GL-001
+2024-01-08,220.00,Frais bancaires,627000,GL-002
+2024-01-10,980.00,Règlement fournisseur,401000,GL-003
+2024-01-12,4200.00,Encaissement client,411000,GL-004
+2024-01-16,110.00,Achat fournitures,606300,GL-005
